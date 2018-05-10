@@ -77,3 +77,9 @@ body {
   text-align: center;
   align-items:center;
 }
+
+.card-deck {
+  margin: 0 auto;
+  padding-top: 70px;
+  max-width: 75%;
+}
