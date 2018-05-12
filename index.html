@@ -14,7 +14,7 @@
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="./index.html">T&F Gallery</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -25,15 +25,15 @@
           <a class="nav-link" href="./blog/blog.html">Blog</a>
         </li>
         <li class="nav-item dropdown">
-       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Countries
        </a>
-       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-         <a class="dropdown-item" href="./countries/australia.html">Australia</a>
-         <a class="dropdown-item" href="#">China</a>
-         <a class="dropdown-item" href="#">United States</a>
-       </div>
-     </li>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./countries/australia.html">Australia</a>
+            <a class="dropdown-item" href="#">China</a>
+            <a class="dropdown-item" href="#">United States</a>
+          </div>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Food</a>
         </li>
@@ -79,11 +79,32 @@
   <div class="container">
     <div class="row">
       <h3 class="col-sm-12">Featured Gallery</h3>
-    <div class="row featured-gallery">
-      <div class="col-sm-12 col-md-6 col-lg-3">
-        <img src="./resources/images/shanghai-night.jpeg" width="80%" height="auto" \>
+      <div class="row featured-gallery">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <img src="./resources/images/shanghai-night.jpeg" width="100%" height="auto" \>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Shanghai Pudong Night Scene</button>
+          <!-- Modal within -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Shanghai Pudong</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                  Pudong is a sprawling, sparsely populated area with family attractions like Century Park, offering bike trails, boating lakes and minigolf courses, as well as Shanghai Disney Resort. Small, home-style restaurants serve Shanghainese food, while nightlife is centered on the glitzy Lujiazui district. Shanghai World Expo Center draws crowds with its futuristic pavilions, and Pudong International Airport is a major hub.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
     </div>
   </div>
 

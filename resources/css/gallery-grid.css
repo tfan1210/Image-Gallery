@@ -130,3 +130,11 @@ body {
   /* text-align: center; */
   margin: 0 auto;
 }
+
+.container h3 {
+  font-size: 2rem;
+}
+
+.container img {
+  margin-bottom: 1rem;
+}
