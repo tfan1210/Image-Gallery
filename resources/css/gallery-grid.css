@@ -105,15 +105,15 @@ body {
 }
 
 .background-sf {
-  background-image: url("../images/SF.jpg");
+  background-image: url("../images/SF-web.jpg");
 }
 
 .background-ocean {
-  background-image: url("../images/ocean.jpg");
+  background-image: url("../images/ocean-web.jpg");
 }
 
 .background-tokyo {
-  background-image: url("../images/Tokyo-min.jpg");
+  background-image: url("../images/Tokyo-web.jpg");
 }
 
 .relative-wrapper {
