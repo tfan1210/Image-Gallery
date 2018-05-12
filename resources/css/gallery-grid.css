@@ -105,7 +105,7 @@ body {
 }
 
 .background-sf {
-  background-image: url("../images/sf.jpg");
+  background-image: url("../images/SF.jpg");
 }
 
 .background-ocean {
@@ -113,7 +113,7 @@ body {
 }
 
 .background-tokyo {
-  background-image: url("../images/tokyo-min.jpg");
+  background-image: url("../images/Tokyo-min.jpg");
 }
 
 .relative-wrapper {
@@ -121,4 +121,12 @@ body {
   top: -16rem;
   width: 100%;
   text-align: center;
+}
+
+.featured-gallery {
+  max-width: 90%;
+  padding-top: 5rem;
+  align-items: center;
+  /* text-align: center; */
+  margin: 0 auto;
 }
